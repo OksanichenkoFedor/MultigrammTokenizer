@@ -3,7 +3,7 @@
 ## Installation
 
 ```console
-$ pip install mult-tokenizer
+$ pip install mult-tokenizer==0.1.2
 ```
 
 ## Quick Start
