@@ -1,6 +1,6 @@
-from tokenizer import MultigrammTokenizer
-from lang_converter import LangConverter
-from lang_tokenizer import LangTokenizer
+from .tokenizer import MultigrammTokenizer
+from .lang_converter import LangConverter
+from .lang_tokenizer import LangTokenizer
 
 
 
