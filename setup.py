@@ -1,10 +1,15 @@
 from setuptools import setup, find_packages
+from distutils.command.install import install as _install
+from distutils.core import setup, Extension
+
+module_cfunc = Extension('mg_tok.libcfuncs',
+                       sources = ['mg_tok/cfuncs.c'])
 
 setup(
     name='mult-tokenizer',
-    version='0.1.2',
+    version='0.1.33',
     url='https://github.com/OksanichenkoFedor/MultigrammTokenizer',
-    packages=find_packages(),
+    packages=find_packages(include="mg_tok"),
     author='Oksanichenko Fedor',
     author_email="okssolotheodor@gmail.com",
     description='Multigramm Tokenization package',
