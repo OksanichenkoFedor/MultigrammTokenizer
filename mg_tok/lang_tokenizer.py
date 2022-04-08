@@ -1,5 +1,5 @@
-from lang_converter import LangConverter
-from tokenizer import MultigrammTokenizer
+from .lang_converter import LangConverter
+from .tokenizer import MultigrammTokenizer
 
 class LangTokenizer:
     """
