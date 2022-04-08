@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mult-tokenizer',
-    version='0.1.1',
+    version='0.1.2',
     url='https://github.com/OksanichenkoFedor/MultigrammTokenizer',
     packages=find_packages(),
     author='Oksanichenko Fedor',
