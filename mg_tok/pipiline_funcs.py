@@ -1,7 +1,7 @@
 import ctypes
 
 # Загрузка библиотеки
-cfunctions = ctypes.CDLL('./libcfuncs.so')
+cfunctions = ctypes.CDLL('./mg_tok/libcfuncs.so')
 
 
 # Указываем, что функция возвращает int

@@ -7,7 +7,7 @@ module_cfunc = Extension('mg_tok.libcfuncs',
 
 setup(
     name='mult-tokenizer',
-    version='0.1.33',
+    version='0.1.39',
     url='https://github.com/OksanichenkoFedor/MultigrammTokenizer',
     packages=find_packages(include="mg_tok"),
     author='Oksanichenko Fedor',

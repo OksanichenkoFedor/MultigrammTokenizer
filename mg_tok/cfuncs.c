@@ -33,7 +33,7 @@ int func_ret_int(int val) {
 
 double func_ret_double(double val) {
     printf("get func_ret_double_c: %f\n", val);
-    return val;
+    return (val*2.0);
 }
 
 char * func_ret_str(char *val) {
